@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+    <style>
+        mark{
+            background-color: rgb(159, 218, 159);
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito</h2>
+    <p>Nessa frase temos um <b>Termo em Negritio</b> usando a tag &lt;b&gt;(não semântica).</p>
+    <p>Nessa frase temos um <strong>Termo em destaque</strong> usando a tag &lt;strong&gt;(semântica).</p>
+    <h2>Itálico</h2>
+    <p>Nessa frase temos um <i>Termo em itálico </i>usando a tag &lt;i&gt;(não semântica).</p>
+    <p>Nessa frase temos um <em>termo em ênfase</em> usando a tag &lt;em&gt;(semântica).</p>
+    <h2>Marcador de texto</h2>
+    <p>Podemos criar também um <mark style="background-color: lime;">texto marcado</mark> com a tag &lt;mark&gt; e usar o parâmetro style = background-color para definir a cor.</p>
+    <p>Outro <mark>texto marcado</mark></p>
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno dessa forma</small> utilizando as tags big (inválida) e small</p>
+    <h2>Texto Excluido e Inserido</h2>
+    <p>Podemos usar a tag del para criar <del>esse efeito</del> de texto excluido, e utilizar a tag ins para dar <ins>esse efeito</ins> de texto inserido, sublinhado.</p>
+    <h2>Texto sobrescrito e subescrito</h2>
+    <p>Podemos utilizar a tag sup para criar um efeito assim: x<sup>2</sup> + 3, observe como o 2 ficou para <u>cima</u>(sublinhado com a tag u, não semântica).</p>
+    <p>Podemos usar a tag sub para criar um efeito assim:H<sub>2</sub>O, observe como o 2 ficou para <u>baixo</u> (sublinhado com a tag u, não semântica).</p>
+</body>
+</html>
