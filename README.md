@@ -1,3 +1,4 @@
 # html-css
-curso de html e css do curso em video
+Estudos sobre html-css
  
+<a href="https://jmarchi14.github.io/html-css/"> Link para abrir meus arquivos</a>
